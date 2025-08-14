@@ -15,7 +15,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
         builder.Configuration.GetConnectionString("DefaultConnection"),
         ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
     ));
-
+builder.Services.AddHttpClient();
 // DI pour Repository
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddControllers();

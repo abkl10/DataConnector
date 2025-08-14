@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataConnector.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+674bb73cda41db59fc6ec0eb8d3523f6823d0614")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+022472f14c10e8c4881c42c8e6131aed1d61309d")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataConnector.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataConnector.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
