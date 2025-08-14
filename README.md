@@ -1,4 +1,4 @@
-# 🔌 ClicDataConnector
+# 🔌 DataConnector
 
 Un connecteur REST modulaire développé en **.NET 8 + EF Core + MySQL**
 
@@ -24,10 +24,10 @@ Ce connecteur simule :
 ### Structure
 
     ```bash
-    ClicDataConnector/
-    ├── ClicDataConnector.API/          # API REST .NET 8
-    ├── ClicDataConnector.Core/         # Entités, DTOs, Interfaces métier
-    ├── ClicDataConnector.Infrastructure/ # Repositories, EF Core, DbContext, Migrations
+    DataConnector/
+    ├── DataConnector.API/          # API REST .NET 8
+    ├── DataConnector.Core/         # Entités, DTOs, Interfaces métier
+    ├── DataConnector.Infrastructure/ # Repositories, EF Core, DbContext, Migrations
     └── README.md
     ```
 
