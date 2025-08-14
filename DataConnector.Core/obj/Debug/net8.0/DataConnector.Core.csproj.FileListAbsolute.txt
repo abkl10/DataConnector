@@ -1,0 +1,12 @@
+/Users/abderrahmanabaakil/Documents/projects/DataConnector/DataConnector.Core/bin/Debug/net8.0/DataConnector.Core.deps.json
+/Users/abderrahmanabaakil/Documents/projects/DataConnector/DataConnector.Core/bin/Debug/net8.0/DataConnector.Core.dll
+/Users/abderrahmanabaakil/Documents/projects/DataConnector/DataConnector.Core/bin/Debug/net8.0/DataConnector.Core.pdb
+/Users/abderrahmanabaakil/Documents/projects/DataConnector/DataConnector.Core/obj/Debug/net8.0/DataConnector.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/abderrahmanabaakil/Documents/projects/DataConnector/DataConnector.Core/obj/Debug/net8.0/DataConnector.Core.AssemblyInfoInputs.cache
+/Users/abderrahmanabaakil/Documents/projects/DataConnector/DataConnector.Core/obj/Debug/net8.0/DataConnector.Core.AssemblyInfo.cs
+/Users/abderrahmanabaakil/Documents/projects/DataConnector/DataConnector.Core/obj/Debug/net8.0/DataConnector.Core.csproj.CoreCompileInputs.cache
+/Users/abderrahmanabaakil/Documents/projects/DataConnector/DataConnector.Core/obj/Debug/net8.0/DataConnector.Core.sourcelink.json
+/Users/abderrahmanabaakil/Documents/projects/DataConnector/DataConnector.Core/obj/Debug/net8.0/DataConnector.Core.dll
+/Users/abderrahmanabaakil/Documents/projects/DataConnector/DataConnector.Core/obj/Debug/net8.0/refint/DataConnector.Core.dll
+/Users/abderrahmanabaakil/Documents/projects/DataConnector/DataConnector.Core/obj/Debug/net8.0/DataConnector.Core.pdb
+/Users/abderrahmanabaakil/Documents/projects/DataConnector/DataConnector.Core/obj/Debug/net8.0/ref/DataConnector.Core.dll

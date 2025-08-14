@@ -28,6 +28,9 @@
             "projectReferences": {
               "/Users/abderrahmanabaakil/Documents/projects/DataConnector/DataConnector.Core/DataConnector.Core.csproj": {
                 "projectPath": "/Users/abderrahmanabaakil/Documents/projects/DataConnector/DataConnector.Core/DataConnector.Core.csproj"
+              },
+              "/Users/abderrahmanabaakil/Documents/projects/DataConnector/DataConnector.Infrastructure/DataConnector.Infrastructure.csproj": {
+                "projectPath": "/Users/abderrahmanabaakil/Documents/projects/DataConnector/DataConnector.Infrastructure/DataConnector.Infrastructure.csproj"
               }
             }
           }
@@ -50,6 +53,12 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -117,6 +126,80 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/abderrahmanabaakil/Documents/projects/DataConnector/DataConnector.Infrastructure/DataConnector.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abderrahmanabaakil/Documents/projects/DataConnector/DataConnector.Infrastructure/DataConnector.Infrastructure.csproj",
+        "projectName": "DataConnector.Infrastructure",
+        "projectPath": "/Users/abderrahmanabaakil/Documents/projects/DataConnector/DataConnector.Infrastructure/DataConnector.Infrastructure.csproj",
+        "packagesPath": "/Users/abderrahmanabaakil/.nuget/packages/",
+        "outputPath": "/Users/abderrahmanabaakil/Documents/projects/DataConnector/DataConnector.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/abderrahmanabaakil/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/abderrahmanabaakil/Documents/projects/DataConnector/DataConnector.Core/DataConnector.Core.csproj": {
+                "projectPath": "/Users/abderrahmanabaakil/Documents/projects/DataConnector/DataConnector.Core/DataConnector.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7uCadVBLDeQVD4GbE1Bxl6S4Xe080wq8gLOMueUUVIo=",
+  "Source": "DataConnector.API",
+  "BasePath": "_content/DataConnector.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
