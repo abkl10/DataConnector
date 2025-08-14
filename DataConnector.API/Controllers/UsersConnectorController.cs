@@ -19,6 +19,17 @@ public class UsersConnectorController : ControllerBase
         _userRepository = userRepository;
     }
 
+    [HttpGet]
+    public async Task<IActionResult> GetAllUsers()
+    {
+        var users = await _userRepository.GetAllUsersAsync();
+
+        if (!users.Any())
+            return NotFound("Aucun utilisateur trouvé dans la base.");
+
+        return Ok(users);
+    }
+
     [HttpPost("pull")]
     public async Task<IActionResult> PullUsersAsync()
     {
