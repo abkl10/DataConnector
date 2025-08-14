@@ -1,0 +1,6 @@
+@DataConnector.API_HostAddress = http://localhost:5033
+
+GET {{DataConnector.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
