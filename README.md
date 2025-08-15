@@ -25,8 +25,8 @@ Ce connecteur simule :
 
     ```bash
     DataConnector/
-    ├── DataConnector.API/          # API REST .NET 8
-    ├── DataConnector.Core/         # Entités, DTOs, Interfaces métier
+    ├── DataConnector.API/            # API REST .NET 8
+    ├── DataConnector.Core/           # Entités, DTOs, Interfaces métier
     ├── DataConnector.Infrastructure/ # Repositories, EF Core, DbContext, Migrations
     └── README.md
     ```
@@ -57,12 +57,12 @@ Ce connecteur simule :
 
 ## Fonctionnalités
 
-- ✅ Connexion à une API externe (jsonplaceholder)
-- ✅ Récupération de `Users`
-- ✅ Transformation des données via `DTO` ⇒ `Entity`
-- ✅ Enregistrement en base **MySQL**
-- ✅ Endpoint `GET` pour afficher les données stockées
-- ✅ Documentation Swagger
+- Connexion à une API externe (jsonplaceholder)
+- Récupération de `Users`
+- Transformation des données via `DTO` ⇒ `Entity`
+- Enregistrement en base **MySQL**
+- Endpoint `GET` pour afficher les données stockées
+- Documentation Swagger
 
 ---
 
