@@ -1211,6 +1211,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "DataConnector.Core": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.7",
           "Pomelo.EntityFrameworkCore.MySql": "8.0.3"
         },
         "compile": {
